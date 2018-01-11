@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+singularity run /opt/rit/app/ete3/3.1.1/ete3.simg $@
