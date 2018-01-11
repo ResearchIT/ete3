@@ -12,6 +12,8 @@ From: ubuntu
     bash Miniconda2-latest-Linux-x86_64.sh -b -p /opt/anaconda-ete3
     export PATH=/opt/anaconda-ete3/bin:$PATH
     conda install -y -c etetoolkit ete3 ete_toolchain ete3_external_apps
+    unlink /opt/anaconda-ete3/lib/libstdc++.so.6
+    ln -s /opt/anaconda-ete3/lib/libstdc++.so.6.0.24 /opt/anaconda-ete3/lib/libstdc++.so.6
 
 %runscript
     xvfb-run ete3 "$@"
