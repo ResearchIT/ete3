@@ -6,8 +6,7 @@ using [Singularity Hub](https://singularity-hub.org/)
 
 Versions:
 
-* 3.1.1-ubuntu - ete3 v3.1.1 from anaconda installed on Ubuntu
-* 3.1.1-fedora - ete3 v3.1.1 from anaconda installed on Fedora
+* 3.1.1 - ete3 v3.1.1 from anaconda installed on Fedora
 
 ## How to Use:
 
