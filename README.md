@@ -15,7 +15,7 @@ Run example:
 singularity run shub://ResearchIT/ete3 build check
 
 ## Alternative method:
-use the provided bash wrapper and module file to use the tofu2 singularity container like a standard module
+use the provided bash wrapper and module file to use the singularity container like a standard module
 (this assumes you have a singularity/2.4 module)
 
 e.g.
